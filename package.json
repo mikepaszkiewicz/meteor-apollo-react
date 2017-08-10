@@ -1,0 +1,23 @@
+{
+  "name": "apollo-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "install-packages": "meteor remove blaze-html-templaces autopublish insecure && meteor add apollo && meteor npm install --save sequelize mysql apollo-client apollo-server express graphql graphql-tools body-parser graphql-typings react react-dom react-apollo graphql-tag"
+  },
+  "dependencies": {
+    "apollo-client": "^1.9.1",
+    "apollo-server-express": "^1.1.0",
+    "babel-runtime": "^6.20.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql-tools": "^1.1.0",
+    "meteor-node-stubs": "~0.2.4",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.0",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.11",
+    "react-dom": "^15.6.1",
+    "sequelize": "^4.4.2"
+  }
+}
